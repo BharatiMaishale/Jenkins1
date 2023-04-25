@@ -14,8 +14,7 @@ import org.testng.annotations.Test;
 public class MultipleElements {
 	
 	public void elements() {
-//		ChromeOptions co = new ChromeOptions();
-//		co.addArguments("--remote-allow-origins=*");
+
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.flipkart.com/");
 		driver.manage().window().maximize();
